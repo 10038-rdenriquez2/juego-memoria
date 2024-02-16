@@ -105,7 +105,7 @@ const matrixGenerator = (cardValues, numRows = 4, numCols = 5) => {
           winCount += 1;
 
           if (winCount === Math.floor(cardValues.length / 2)) {
-            result.innerHTML = `<h2>¡FELICIDADES! Haz ganado el juego</h2>
+            result.innerHTML = `<h2>¡FELICIDADES! Has ganado el juego</h2>
             <h4>Movimientos: ${movesCount}</h4>`;
             stopGame();
           }
